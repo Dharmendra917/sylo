@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.slides{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    height: 70vh;
+    width: 90%;
+    margin:25px auto;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.slides .slide{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(108, 84, 54);
+}
+.slides .slide img{
+    height: 95%;
+    width: 100%;
+    background-size: contain;
+}

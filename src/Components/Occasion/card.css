@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.card{
+    height: 260px;
+    width: 210px;
+    /* background-color: aqua; */
+}
+.card .image{
+    height: 90%;
+    width: 100%;
+    border-radius: 35px;
+    overflow: hidden;
+}
+.card .image img{
+    height: 100%;
+    width: 100%;
+}
+.card h2{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    margin: 8px;
+}

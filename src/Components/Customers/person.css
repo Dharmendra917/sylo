@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.person{
+    height: 440px;
+    width: 255px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: 1px solid #000;
+}
+.person .images{
+    height: 425px;
+    width: 240px;
+    border-radius: 25px;
+    /* background-color: rgb(169, 124, 65); */
+
+    overflow: hidden;
+}
+.person .images img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}

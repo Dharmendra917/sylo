@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    /* height: 100%; */
+    width: 100%;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    font-size: 28px;
+    font-family: "gilroy";
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 52px;
+}
+.cards .card{
+    margin-bottom: 10px;
+}
+
+/* @media only screen and (max-width :600px) {
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+} */

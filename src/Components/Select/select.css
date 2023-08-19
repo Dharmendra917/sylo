@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.allCards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+.line1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    gap: 25px;
+    margin-top: 100px;
+}
+.line2{
+    width: 100%;
+    text-align: center;
+    border:1px solid rgb(255, 0, 43);
+}
+.line1 .title h3{
+    font-size: 30px;
+    background-image: linear-gradient(to right, red, blue);
+    -webkit-background-clip: text;
+    background-clip: text; /* For Safari/WebKit browsers */
+    color: transparent;
+}
+.line1 .title p{
+    font-size: 20px ;
+}
+
+.line1 .L_line{
+    width: 40%;
+    border: 1px solid rgb(255, 0, 43);
+}
+.line1 .R_line{
+    width: 40%;
+    border: 1px solid rgb(255, 0, 43);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
